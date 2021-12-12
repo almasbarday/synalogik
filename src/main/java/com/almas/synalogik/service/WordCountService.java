@@ -22,7 +22,7 @@ import com.almas.synalogik.exception.FileContentException;
  * Assumptions:
  * 1. A word is a set of alphanumeric characters not including special characters and separated from other words by whitespaces.
  * 2. The only special characters exempt from rule 1 are & and /. & be considered a word on its own and / will be considered part of a word if enclosed between two alphanumeric characters, but not on its own.
- * 3. Numbers will be considered words separated by commas and whitespaces. so formatted numbers like 1,000 will be considered as 1 word of length 4 but 1, 000 will be 2 words of lengths 1, 3
+ * 3. Numbers will be considered words separated by whitespaces. so formatted numbers like 1,000 will be considered as 1 word of length 5 but 1, 000 will be 2 words of lengths 1, 3
  *  
  * 
  * @author AlmasBarday
